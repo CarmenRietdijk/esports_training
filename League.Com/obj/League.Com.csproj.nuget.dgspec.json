@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/League.Com/League.Com.csproj": {}
+  },
+  "projects": {
+    "/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/Framework/Framework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/Framework/Framework.csproj",
+        "projectName": "Framework",
+        "projectPath": "/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/Framework/Framework.csproj",
+        "packagesPath": "/Users/carmen.rietdijk/.nuget/packages/",
+        "outputPath": "/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/Framework/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/carmen.rietdijk/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "netcoreapp7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "netcoreapp7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.3.1, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/League.Com/League.Com.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/League.Com/League.Com.csproj",
+        "projectName": "League.Com",
+        "projectPath": "/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/League.Com/League.Com.csproj",
+        "packagesPath": "/Users/carmen.rietdijk/.nuget/packages/",
+        "outputPath": "/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/League.Com/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/carmen.rietdijk/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "netcoreapp7.0",
+            "projectReferences": {
+              "/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/Framework/Framework.csproj": {
+                "projectPath": "/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/Framework/Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "netcoreapp7.0",
+          "dependencies": {
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

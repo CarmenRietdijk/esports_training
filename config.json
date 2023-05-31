@@ -1,0 +1,7 @@
+{
+    "driver": {
+        "browser": "firefox",
+        "type": "remote",
+        "wait": 30
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "5aYzysD3NaQgh/XzpdM7ZGJMyQmsCLvhMMP7JwvJvQDGaKNDXkPfZLEoX980E0CP9ucDaFgDxxVJHWqOr5+KZg==",
+  "success": true,
+  "projectFilePath": "/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/Framework/Framework.csproj",
+  "expectedPackageFiles": [
+    "/Users/carmen.rietdijk/.nuget/packages/newtonsoft.json/11.0.2/newtonsoft.json.11.0.2.nupkg.sha512",
+    "/Users/carmen.rietdijk/.nuget/packages/restsharp/106.3.1/restsharp.106.3.1.nupkg.sha512",
+    "/Users/carmen.rietdijk/.nuget/packages/selenium.support/3.14.0/selenium.support.3.14.0.nupkg.sha512",
+    "/Users/carmen.rietdijk/.nuget/packages/selenium.webdriver/3.14.0/selenium.webdriver.3.14.0.nupkg.sha512"
+  ],
+  "logs": []
+}

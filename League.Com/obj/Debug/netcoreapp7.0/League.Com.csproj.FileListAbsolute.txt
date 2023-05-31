@@ -1,0 +1,15 @@
+/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/League.Com/bin/Debug/netcoreapp7.0/League.Com.deps.json
+/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/League.Com/bin/Debug/netcoreapp7.0/League.Com.dll
+/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/League.Com/bin/Debug/netcoreapp7.0/League.Com.pdb
+/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/League.Com/bin/Debug/netcoreapp7.0/Framework.dll
+/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/League.Com/bin/Debug/netcoreapp7.0/Framework.pdb
+/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/League.Com/obj/Debug/netcoreapp7.0/League.Com.csproj.AssemblyReference.cache
+/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/League.Com/obj/Debug/netcoreapp7.0/League.Com.GeneratedMSBuildEditorConfig.editorconfig
+/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/League.Com/obj/Debug/netcoreapp7.0/League.Com.AssemblyInfoInputs.cache
+/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/League.Com/obj/Debug/netcoreapp7.0/League.Com.AssemblyInfo.cs
+/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/League.Com/obj/Debug/netcoreapp7.0/League.Com.csproj.CoreCompileInputs.cache
+/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/League.Com/obj/Debug/netcoreapp7.0/League.Com.csproj.CopyComplete
+/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/League.Com/obj/Debug/netcoreapp7.0/League.Com.dll
+/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/League.Com/obj/Debug/netcoreapp7.0/refint/League.Com.dll
+/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/League.Com/obj/Debug/netcoreapp7.0/League.Com.pdb
+/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/League.Com/obj/Debug/netcoreapp7.0/ref/League.Com.dll
