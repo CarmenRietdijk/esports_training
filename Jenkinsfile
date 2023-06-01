@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
+                sh 'docker-compose down'
                 sh '/opt/homebrew/bin/docker-compose -f docker-compose.yml up -d' 
             }
         }
