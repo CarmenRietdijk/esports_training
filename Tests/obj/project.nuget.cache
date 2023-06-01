@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Txke8iFeYu4u9VZLDxATXEtGccdBUrSwrA8PCd+3gP3m27XbrhcdL7Rwoc77Qc8XxFCneJixFPxBuxgQNn1Xrg==",
+  "dgSpecHash": "ON0J61Js3tKgC4w/trI5EZ9I6EU9zjvrb69gpu+tdYkAbLs2ui0DBJEjSG+4FmXK86zlcMm3ffs41yfaFfAfNA==",
   "success": true,
-  "projectFilePath": "/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/Tests/League.Com.Tests.csproj",
+  "projectFilePath": "/Users/carmen.rietdijk/Documents/esports_test_automation/esports-automation/Esports/Tests/League.Com.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/carmen.rietdijk/.nuget/packages/microsoft.codecoverage/1.0.3/microsoft.codecoverage.1.0.3.nupkg.sha512",
     "/Users/carmen.rietdijk/.nuget/packages/microsoft.dotnet.internalabstractions/1.0.0/microsoft.dotnet.internalabstractions.1.0.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r2k6icmsi5IDxjr08q8HeePOXYXoqb/WNtvLNjxaSZYjScyekbhO6m34yFZxGs6/YR90mBrrEa7RxpAFaFI6lg==",
+  "dgSpecHash": "npHiAQ7C0sZ7rfl1kQw/BaG46HXq2zK3mtn77AR0KL9ElxkjBWxnDFVaKq1H4gsnoEmRgImleUSIUNMI5OxYEw==",
   "success": true,
-  "projectFilePath": "/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/League.Com/League.Com.csproj",
+  "projectFilePath": "/Users/carmen.rietdijk/Documents/esports_test_automation/esports-automation/Esports/League.Com/League.Com.csproj",
   "expectedPackageFiles": [
     "/Users/carmen.rietdijk/.nuget/packages/newtonsoft.json/11.0.2/newtonsoft.json.11.0.2.nupkg.sha512",
     "/Users/carmen.rietdijk/.nuget/packages/restsharp/106.3.1/restsharp.106.3.1.nupkg.sha512",

@@ -10,3 +10,15 @@
 /Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/Framework/obj/Debug/netcoreapp7.0/refint/Framework.dll
 /Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/Framework/obj/Debug/netcoreapp7.0/Framework.pdb
 /Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/Framework/obj/Debug/netcoreapp7.0/ref/Framework.dll
+/Users/carmen.rietdijk/Documents/esports_test_automation/esports-automation/Esports/Framework/bin/Debug/netcoreapp7.0/Framework.deps.json
+/Users/carmen.rietdijk/Documents/esports_test_automation/esports-automation/Esports/Framework/bin/Debug/netcoreapp7.0/Framework.dll
+/Users/carmen.rietdijk/Documents/esports_test_automation/esports-automation/Esports/Framework/bin/Debug/netcoreapp7.0/Framework.pdb
+/Users/carmen.rietdijk/Documents/esports_test_automation/esports-automation/Esports/Framework/obj/Debug/netcoreapp7.0/Framework.csproj.AssemblyReference.cache
+/Users/carmen.rietdijk/Documents/esports_test_automation/esports-automation/Esports/Framework/obj/Debug/netcoreapp7.0/Framework.GeneratedMSBuildEditorConfig.editorconfig
+/Users/carmen.rietdijk/Documents/esports_test_automation/esports-automation/Esports/Framework/obj/Debug/netcoreapp7.0/Framework.AssemblyInfoInputs.cache
+/Users/carmen.rietdijk/Documents/esports_test_automation/esports-automation/Esports/Framework/obj/Debug/netcoreapp7.0/Framework.AssemblyInfo.cs
+/Users/carmen.rietdijk/Documents/esports_test_automation/esports-automation/Esports/Framework/obj/Debug/netcoreapp7.0/Framework.csproj.CoreCompileInputs.cache
+/Users/carmen.rietdijk/Documents/esports_test_automation/esports-automation/Esports/Framework/obj/Debug/netcoreapp7.0/Framework.dll
+/Users/carmen.rietdijk/Documents/esports_test_automation/esports-automation/Esports/Framework/obj/Debug/netcoreapp7.0/refint/Framework.dll
+/Users/carmen.rietdijk/Documents/esports_test_automation/esports-automation/Esports/Framework/obj/Debug/netcoreapp7.0/Framework.pdb
+/Users/carmen.rietdijk/Documents/esports_test_automation/esports-automation/Esports/Framework/obj/Debug/netcoreapp7.0/ref/Framework.dll

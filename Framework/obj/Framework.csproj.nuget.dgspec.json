@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/Framework/Framework.csproj": {}
+    "/Users/carmen.rietdijk/Documents/esports_test_automation/esports-automation/Esports/Framework/Framework.csproj": {}
   },
   "projects": {
-    "/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/Framework/Framework.csproj": {
+    "/Users/carmen.rietdijk/Documents/esports_test_automation/esports-automation/Esports/Framework/Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/Framework/Framework.csproj",
+        "projectUniqueName": "/Users/carmen.rietdijk/Documents/esports_test_automation/esports-automation/Esports/Framework/Framework.csproj",
         "projectName": "Framework",
-        "projectPath": "/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/Framework/Framework.csproj",
+        "projectPath": "/Users/carmen.rietdijk/Documents/esports_test_automation/esports-automation/Esports/Framework/Framework.csproj",
         "packagesPath": "/Users/carmen.rietdijk/.nuget/packages/",
-        "outputPath": "/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/Framework/obj/",
+        "outputPath": "/Users/carmen.rietdijk/Documents/esports_test_automation/esports-automation/Esports/Framework/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/carmen.rietdijk/.nuget/NuGet/NuGet.Config"

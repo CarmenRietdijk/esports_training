@@ -5628,11 +5628,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/Tests/League.Com.Tests.csproj",
+      "projectUniqueName": "/Users/carmen.rietdijk/Documents/esports_test_automation/esports-automation/Esports/Tests/League.Com.Tests.csproj",
       "projectName": "League.Com.Tests",
-      "projectPath": "/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/Tests/League.Com.Tests.csproj",
+      "projectPath": "/Users/carmen.rietdijk/Documents/esports_test_automation/esports-automation/Esports/Tests/League.Com.Tests.csproj",
       "packagesPath": "/Users/carmen.rietdijk/.nuget/packages/",
-      "outputPath": "/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/Tests/obj/",
+      "outputPath": "/Users/carmen.rietdijk/Documents/esports_test_automation/esports-automation/Esports/Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/carmen.rietdijk/.nuget/NuGet/NuGet.Config"
@@ -5647,11 +5647,11 @@
         "net7.0": {
           "targetAlias": "netcoreapp7.0",
           "projectReferences": {
-            "/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/Framework/Framework.csproj": {
-              "projectPath": "/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/Framework/Framework.csproj"
+            "/Users/carmen.rietdijk/Documents/esports_test_automation/esports-automation/Esports/Framework/Framework.csproj": {
+              "projectPath": "/Users/carmen.rietdijk/Documents/esports_test_automation/esports-automation/Esports/Framework/Framework.csproj"
             },
-            "/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/League.Com/League.Com.csproj": {
-              "projectPath": "/Users/carmen.rietdijk/esports_test_automation/esports-automation/Esports/League.Com/League.Com.csproj"
+            "/Users/carmen.rietdijk/Documents/esports_test_automation/esports-automation/Esports/League.Com/League.Com.csproj": {
+              "projectPath": "/Users/carmen.rietdijk/Documents/esports_test_automation/esports-automation/Esports/League.Com/League.Com.csproj"
             }
           }
         }
