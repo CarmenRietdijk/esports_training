@@ -4,7 +4,8 @@ pipeline {
         stage('Build') { 
             steps {
                 sh '/opt/homebrew/bin/docker-compose -f docker-compose.yml down'
-                sh '/opt/homebrew/bin/docker-compose -f docker-compose.yml up -d' 
+                sh '/opt/homebrew/bin/docker-compose -f docker-compose.yml up -d'
+                sleep 30 
             }
         }
         stage('Test') { 
