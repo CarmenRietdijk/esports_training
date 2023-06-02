@@ -20,7 +20,6 @@ pipeline {
               
                 }
             }    
-        }
         stage('Deploy') { 
             steps {
                 sh '/opt/homebrew/bin/docker-compose -f docker-compose.yml down' 
