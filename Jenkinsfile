@@ -1,5 +1,8 @@
 pipeline {
-    agent any 
+    agent any
+    tools {
+        dotnet 'dotnet-sdk-7.0'
+    } 
     stages {
         stage('Build') { 
             steps {
@@ -10,7 +13,7 @@ pipeline {
         }
         stage('Test') { 
             steps {
-                withDotNet(specificSdkVersion: '7.0'){
+                withDotNet{
                     script {
                         def containerNames = ['esports_training-selenium-hub-1', 'esports_training-firefox-1', 'esports_training-chrome-1']
                         for (def containerName in containerNames) {
