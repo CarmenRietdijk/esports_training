@@ -1,8 +1,5 @@
 pipeline {
     agent any
-    tools {
-        dotnetsdk 'dotnet-sdk-7.0'
-    } 
     stages {
         stage('Build') { 
             steps {
