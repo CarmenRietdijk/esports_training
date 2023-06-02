@@ -12,7 +12,6 @@ pipeline {
                 sh "dotnet test --filter testcategory=demo" 
                 }
             }
-        }
         stage('Deploy') { 
             steps {
                 sh 'docker-compose down' 
