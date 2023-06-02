@@ -12,7 +12,7 @@ pipeline {
                 script {
                     def containerNames = ['esports-selenium-hub-1', 'esports-firefox-1', 'esports-chrome-1']
                     for (def containerName in containerNames) {
-                        sh "docker compose exec ${containerName} dotnet test --filter testcategory=demo" 
+                        sh "docker-compose exec ${containerName} dotnet test --filter testcategory=demo" 
                     }
                 }
             }
