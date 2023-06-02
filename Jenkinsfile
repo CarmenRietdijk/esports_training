@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Test') { 
             steps {
-                withDotNet(sdkVersion: '7.0'){
+                withDotNet(sdk: '7.0'){
                     script {
                         def containerNames = ['esports_training-selenium-hub-1', 'esports_training-firefox-1', 'esports_training-chrome-1']
                         for (def containerName in containerNames) {
