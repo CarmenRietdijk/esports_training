@@ -1,11 +1,14 @@
 pipeline {
     agent any
+    environment {
+        DOTNET_SDK_VERSION = '7.0'
+        PATH = "${tool(name: 'dotnet', type: 'hudson.plugins.dotnet.DotNetToolInstallation').getHome()}:${env.PATH}"
+    }
     stages {
         stage('Build') { 
             steps {
                 sh '/opt/homebrew/bin/docker-compose -f docker-compose.yml down'
                 sh '/opt/homebrew/bin/docker-compose -f docker-compose.yml up -d'
-                sleep 5
             }
         }
         stage('Test') { 
