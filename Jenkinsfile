@@ -10,16 +10,16 @@ pipeline {
         }
         stage('Test') { 
             steps {
-                withEnv(['DOTNET_SDK_VERSION=7.0'])
+                withEnv(['DOTNET_SDK_VERSION=7.0']){
                     script {
                         def containerNames = ['esports_training-selenium-hub-1', 'esports_training-firefox-1', 'esports_training-chrome-1']
                         for (def containerName in containerNames) {
                             dotnetTest(filter: 'testcategory=demo') 
                         }
                     }
-              
                 }
-            }    
+            }
+        }    
         stage('Deploy') { 
             steps {
                 sh '/opt/homebrew/bin/docker-compose -f docker-compose.yml down' 
