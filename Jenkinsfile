@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         DOTNET_SDK_VERSION = '7.0'
-        PATH = "${tool(name: 'dotnet', type: 'hudson.plugins.dotnet.DotNetToolInstallation').getHome()}:${env.PATH}"
+        PATH = "${tool(name: 'dotnetOnJenkins', type: 'hudson.plugins.dotnet.DotNetToolInstallation').getHome()}:${env.PATH}"
     }
     stages {
         stage('Build') { 
