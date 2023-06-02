@@ -12,14 +12,14 @@ pipeline {
                 script {
                     def containerNames = ['esports-selenium-hub-1', 'esports-firefox-1', 'esports-chrome-1']
                     for (def containerName in containerNames) {
-                        sh "/opt/homebrew/bin/docker-compose docker-compose exec ${containerName} dotnet test --filter testcategory=demo" 
+                        sh "/opt/homebrew/bin/docker-compose docker-compose.yml exec ${containerName} dotnet test --filter testcategory=demo" 
                     }
                 }
             }
         }
         stage('Deploy') { 
             steps {
-                sh 'docker-compose down' 
+                sh '/opt/homebrew/bin/docker-compose -f docker-compose.yml down' 
             }
         }
     }
