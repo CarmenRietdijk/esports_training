@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        PATH = "${tool(name: 'dotnetOnJenkins', type: 'hudson.plugins.dotnet.DotNetToolInstallation').getHome()}:${env.PATH}"
+        PATH = "${tool(name: 'dotnetOnJenkins', type: 'org.jenkinsci.plugins.dotnet.DotNetInstallation').getHome()}:${env.PATH}"
     }
     stages {
         stage('Build') { 
