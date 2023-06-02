@@ -5,18 +5,21 @@ pipeline {
             steps {
                 sh '/opt/homebrew/bin/docker-compose -f docker-compose.yml down'
                 sh '/opt/homebrew/bin/docker-compose -f docker-compose.yml up -d'
-                sleep 30 
+                sleep 5
             }
         }
         stage('Test') { 
             steps {
-                script {
-                    def containerNames = ['esports_training-selenium-hub-1', 'esports_training-firefox-1', 'esports_training-chrome-1']
-                    for (def containerName in containerNames) {
-                        sh 'dotnet test --filter testcategory=demo' 
+                withDotNet{
+                    script {
+                        def containerNames = ['esports_training-selenium-hub-1', 'esports_training-firefox-1', 'esports_training-chrome-1']
+                        for (def containerName in containerNames) {
+                            dotnetTest(filter: 'testcategory=demo') 
+                        }
                     }
+              
                 }
-            }
+            }    
         }
         stage('Deploy') { 
             steps {
